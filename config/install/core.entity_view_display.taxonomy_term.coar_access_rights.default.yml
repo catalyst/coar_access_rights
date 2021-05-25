@@ -1,0 +1,36 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.coar_access_rights.field_external_uri
+    - taxonomy.vocabulary.coar_access_rights
+  module:
+    - link
+    - text
+id: taxonomy_term.coar_access_rights.default
+targetEntityType: taxonomy_term
+bundle: coar_access_rights
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_external_uri:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

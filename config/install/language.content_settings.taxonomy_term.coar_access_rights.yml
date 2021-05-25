@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.coar_access_rights
+id: taxonomy_term.coar_access_rights
+target_entity_type_id: taxonomy_term
+target_bundle: coar_access_rights
+default_langcode: site_default
+language_alterable: false

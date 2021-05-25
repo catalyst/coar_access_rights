@@ -1,0 +1,15 @@
+name: 'COAR Access Rights'
+description: "Vocabulary and terms from Confederation of Open Access Repositories Access Rights.\r\nCC BY 4.0 from http://vocabularies.coar-repositories.org/documentation/access_rights/"
+type: module
+core_version_requirement: '^8.9 || ^9'
+dependencies:
+  - 'drupal:field'
+  - 'drupal:language'
+  - 'drupal:link'
+  - 'drupal:path'
+  - 'drupal:taxonomy'
+  - 'drupal:text'
+  - 'islandora_core_feature:islandora_core_feature'
+  - 'migrate_plus:migrate_plus'
+version: 8.x-1.0-alpha2
+package: Islandora

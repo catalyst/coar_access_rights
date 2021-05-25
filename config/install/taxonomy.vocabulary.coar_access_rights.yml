@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'COAR Access Rights'
+vid: coar_access_rights
+description: 'CC BY 4.0 from http://vocabularies.coar-repositories.org/documentation/access_rights/'
+weight: 0

@@ -1,0 +1,9 @@
+{
+    "name": "islandora/islandora_coar_access_rights",
+    "type": "drupal-module",
+    "description": "Feature module to create vocabulary and terms for Confederation of Open Access Repositories (COAR) Access Rights.",
+    "homepage": "https://github.com/catalyst/islandora_coar_access_rights",
+    "license": "GPL-2.0+",
+    "require": {
+    }
+}
